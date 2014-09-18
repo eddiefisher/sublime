@@ -1,0 +1,117 @@
+[
+    // sidebar
+    {
+        "class": "sidebar_container",
+        "layer0.tint": [38, 38, 38],
+        "layer0.opacity": 1.0,
+        "layer0.draw_center": false,
+        "layer0.inner_margin": [0, 0, 1, 0],
+        "content_margin": [0, 0, 1, 0]
+    },
+    {
+        "class": "sidebar_tree",
+        "row_padding": [8, 3],
+        "indent": 12,
+        "indent_offset": 17,
+        "indent_top_level": false,
+        // "layer0.tint": [32, 32, 32],
+        "layer0.tint": [46, 52, 54],
+        // "layer0.tint": [29, 31, 33],
+        "layer0.opacity": 1.0,
+        "dark_content": true
+    },
+    {
+        "class": "sidebar_heading",
+        "color": [130, 130, 130],
+        "font.bold": true,
+        "shadow_color": [130, 130, 130],
+        "shadow_offset": [0, 0]
+    },
+    {
+        "class": "sidebar_label",
+        "color": [211, 215, 207]
+    },
+    {
+        "class": "tree_row",
+        "layer0.texture": "Theme - Default/row_highlight_wide.png",
+        "layer0.opacity": 0.0,
+        "layer0.inner_margin": [1, 1]
+    },
+    {
+        "class": "tree_row",
+        "attributes": ["selected"],
+        "layer0.opacity": 0.8
+        // TODO: fix selected row color & shadow
+    },
+    /*
+    {
+        "class": "close_button",
+        "layer0.texture": "Theme - Default/light_x.png",
+        "layer0.opacity": 0.5,
+        "layer0.inner_margin": 0,
+        "content_margin": [8, 8]
+    },
+    
+    {
+        "class": "tab_close_button",
+        "parents": [{"class": "tab_control", "attributes": ["dirty", "file_medium_dark"]}],
+        "layer0.opacity": 0.0,
+        "layer1.opacity": 0.0,
+        "layer2.opacity": 0.0,
+        "layer3.texture": "Theme - Default/dirty_circle_light.png",
+        "layer3.opacity": 0.5
+    }
+    */
+     // Sidebar file close
+    {
+        "class": "close_button",
+        "layer0.texture": "Theme - Default/light_x.png",
+        "layer0.opacity": 0.0,
+        "layer0.inner_margin": 0,
+        "content_margin": [8, 8]
+    },
+    {
+        "class": "close_button",
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "layer0.opacity": 1.0
+    },
+
+    // Sidebar file dirty
+    {
+        "class": "close_button",
+        "attributes": ["dirty"],
+        "layer0.texture": "Theme - Default/dirty_circle_light.png",
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "close_button",
+        "attributes": ["dirty"],
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "layer0.texture": "Theme - Default/dirty_circle_light.png"
+    },
+    {
+        "class": "close_button",
+        "attributes": ["dirty"],
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "layer0.texture": "Theme - Default/light_x.png"
+    },
+    // Sidebar file close hover
+    {
+        "class": "close_button",
+        "attributes": ["hover"],
+        "layer0.texture": "Theme - Default/light_x.png"
+    },
+    {
+        "class": "close_button",
+        "parents": [{"class": "tree_row", "attributes": ["hover", "selected"]}],
+        "layer0.texture": "Theme - Default/light_x.png"
+    },
+    // StatusBar
+    {
+        "class": "label_control",
+        "color": [255, 255, 255],
+        "shadow_color": [24, 24, 24],
+        "shadow_offset": [0, -1]
+    }
+
+]
