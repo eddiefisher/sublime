@@ -1,12 +1,24 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
-	"font_size": 13,
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Materialize/schemes/Material Spacegray.tmTheme",
+	"copy_with_empty_selection": false,
+	"drag_text": false,
+	"ensure_newline_at_eof_on_save": true,
+	"findreplace_small": true,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"highlight_line": true,
+	"material_theme_disable_folder_animation": true,
+	"material_theme_disable_tree_indicator": true,
+	"material_theme_small_statusbar": true,
+	"material_theme_small_tab": true,
 	"save_on_focus_lost": true,
-	"trim_trailing_white_space_on_save": true,
-	"ensure_newline_at_eof_on_save": true
+	"sidebar_default": true,
+	"tab_size": 2,
+	"theme": "Material Seti.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
 }
